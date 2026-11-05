@@ -112,7 +112,7 @@
                     <% if (lamento !=null) { %>
                         <script>
                             (function () {
-                                var TOTAL = <%= total %>;
+                                var TOTAL = parseInt("<%= total %>", 10);
                                 var CLAVE = 'lamentometro.seguir';
                                 var audio = document.getElementById('audio');
                                 var seguir = document.getElementById('seguir');
