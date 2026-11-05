@@ -8,9 +8,11 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * POST /eliminar  (tarea de SERVLETS)
+ * POST /eliminar (tarea de SERVLETS)
  *
- * <p>Contrato: toma el parámetro {@code codigo}, llama a {@code Contexto.servicio().eliminar(codigo)}
+ * <p>
+ * Contrato: toma el parámetro {@code codigo}, llama a
+ * {@code Contexto.servicio().eliminar(codigo)}
  * y redirige a {@code "listar"}.
  */
 @WebServlet("/eliminar")
@@ -18,7 +20,11 @@ public class EliminarLamento extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        // TODO (SERVLETS)
-        throw new UnsupportedOperationException("TODO: EliminarLamento.doPost()");
+
+        String codigo = req.getParameter("codigo");
+
+        Contexto.servicio().eliminar(codigo);
+
+        resp.sendRedirect("listar");
     }
 }
