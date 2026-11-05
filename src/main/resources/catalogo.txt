@@ -4,3 +4,6 @@ L001;Jueputa nivel 1;Insulto;2;1.32;Insulto tranquilo de todos los días;hp_1.mp
 L002;Jueputa nivel 2;Insulto;4;1.2;Insulto levemente más enérgico que el nivel 1: mayor tono de voz y el mismo sentimiento;hp_2.mp3;Anónimo
 L003;Jueputa nivel 3;Insulto;8;1.85;Insulto de grado superior: usa la hipérbole "retretre" para denotar una mayor magnitud;hp_3.mp3;Anónimo
 L004;Jueputa nivel 4;Insulto;10;5.3;La cúspide del insulto colombiano: hipérboles en repetidas ocasiones y, en cierto punto, el insulto se multiplica por 1000;hp_4.mp3;Anónimo
+L005;Audio 5 - poner titulo;Por definir;10;36.94;Descripcion pendiente;hp_5.mp3;Por definir
+L006;Audio 6 - poner titulo;Por definir;8;17.79;Descripcion pendiente;hp_6.mp3;Por definir
+L007;Audio 7 - poner titulo;Por definir;2;2.64;Descripcion pendiente;hp_7.mp3;Por definir
